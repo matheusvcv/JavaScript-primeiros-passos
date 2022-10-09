@@ -1,0 +1,1 @@
+console.log("Este é o Script do arquivo que foi inserido no Head.");
