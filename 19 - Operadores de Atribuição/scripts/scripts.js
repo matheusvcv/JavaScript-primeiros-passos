@@ -63,3 +63,40 @@ while(z >= 0){
 
 	z -= 5;
 }
+
+
+var xote = 1;
+
+console.log("O valor de xote é:" + xote);
+
+xote = xote +1;
+
+console.log("O valor de xote é:" + xote);
+
+xote++;
+
+console.log("O valor de xote é:" + xote);
+
+
+
+var matheus = 24;
+
+var vitoria = 24;
+
+console.log(matheus += vitoria);
+
+console.log(matheus -= vitoria);
+
+console.log(matheus *= vitoria);
+
+console.log(matheus /= vitoria);
+
+
+var grana = 1;
+
+while(grana <= 100){
+
+	console.log(grana);
+
+	grana *= 2;
+}
