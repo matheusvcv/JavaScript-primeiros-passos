@@ -11,3 +11,49 @@ for(x = 0; x < arr.length; x++){
 for(y = 5; y < 100; y *= 3){
 	console.log(y);
 }
+
+for(hotd = 0; hotd <= 10; hotd++){
+	console.log("A série HOTD tem " + hotd + " episódios.");
+}
+
+for(var z = 0; z <= 100; z++){
+	console.log("O número é definido " + z);
+}
+
+var filhos = ['Lucerys', 'Luke', 'Aegon', 'Viserys'];
+
+for(var n = 0; n < filhos.length; n++){
+	
+	console.log("Nome dos filhos:" + filhos[n]);
+}
+
+for(var pol = 5; pol <= 150; pol *= 5){
+	console.log(pol);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
