@@ -1,35 +1,29 @@
-//parseFloat
+//length
 
-console.log('12.999');
-console.log(parseFloat('12.999'));
-console.log(Number.parseFloat('12.999'));
+var nome = "Matheus";
 
-//parseInt
+console.log(nome.length);
 
-console.log('10');
-console.log(parseInt('10'));
-console.log('12.888');
-console.log(parseInt('12.888'));
+var penal =  "Para os efeitos penais, consideram-se como extensão do território nacional as embarcações e aeronaves brasileiras, de natureza pública ou a serviço do governo brasileiro onde quer que se encontrem, bem como as aeronaves e as embarcações brasileiras, mercantes ou de propriedade privada, que se achem, respectivamente, no espaço aéreo correspondente ou em alto-mar. (Redação dada pela Lei nº 7.209, de 1984)";
 
+console.log(penal.length);
 
-//toFixed
+console.log("Matheus".length);
 
-console.log(23.99);
-console.log(23.99.toFixed(1));
+//indexOf
 
-console.log(23.51515165.toFixed(1));
+console.log(nome[2]);
 
+var frase = "O rato roeu a roupa do rei de Roma";
 
-//isNaN
+console.log(frase.indexOf("roeu"));
 
-console.log(isNaN("Teste"));
-console.log(isNaN(2));
-console.log(isNaN('12'));
+//slice
 
-//MAX_VALUE
+var removeRoeu = frase.slice(7, 11);
+console.log(removeRoeu);
 
-console.log(Number.MAX_VALUE);
+//replace
 
-//MIN_VALUE
-
-console.log(Number.MIN_VALUE);
+var novaFrase = frase.replace("roeu", "teste");
+console.log(novaFrase);
