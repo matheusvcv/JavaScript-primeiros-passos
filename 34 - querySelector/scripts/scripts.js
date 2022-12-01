@@ -7,6 +7,8 @@ console.log(itens);
 var itens2 = document.querySelectorAll('#lista .item');
 console.log(itens2);
 
+//querySelector()
+
 var itens3 = document.querySelector('#lista2 .item');
 console.log(itens3);
 
